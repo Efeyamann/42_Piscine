@@ -12,11 +12,11 @@
 
 #include <unistd.h>
 
-void	writenumber(int basamak)
+void	writenumber(int number)
 {
 	char	x;
 
-	x = basamak + '0';
+	x = number + '0';
 	write(1, &x, 1);
 }
 
